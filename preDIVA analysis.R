@@ -10,7 +10,6 @@ library(lme4)
 # Preparing the preDIVA data set for analysis
 {
 # Loading the data
-setwd("Z:/user/wkant/prediva")
 data = read_csv("dataAlc.csv")
 
 # Create T variables (denoted as DT)
